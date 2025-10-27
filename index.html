@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BAUTA ✝️ – Built in Christ | Vision Framtid</title>
-  <meta name="description" content="BAUTA – Vision Framtid Initiative. Christ-centered projects bringing food, energy, and healing across Africa, in the name of Jesus." />
+  <meta name="description" content="Bauta – Vision Framtid Initiative. Christ-centered projects bringing food, energy, and healing across Africa, in the name of Jesus." />
   <meta name="keywords" content="BAUTA, Vision Framtid, Jesus, Christ, Faith, Africa, Free of Charge, Built in Christ, Christian Development, Hydrogen, Food, Medicine, Water" />
   <meta name="author" content="Magnus T Gustav Sandberg" />
   <link rel="icon" type="image/png" href="public/bauta_logo.png" />
@@ -211,14 +211,16 @@
 </head>
 
 <body class="home">
-  <!-- 🌍 BAUTA Header -->
+ <!-- 🌍 GLOBAL HEADER – BAUTA -->
 <header class="site-header">
   <div class="left">
-    <img src="public/bauta_logo.png" alt="BAUTA logo" />
+    <a href="index.html">
+      <img src="bauta_logo.png" alt="BAUTA logo" />
+    </a>
   </div>
 
   <div class="center">
-    Bauta Project
+    BAUTA – Built in Christ
   </div>
 
   <div class="right">
@@ -227,12 +229,12 @@
 </header>
 
 <style>
-/* === BAUTA HEADER === */
+/* === 🌍 GLOBAL HEADER – BAUTA === */
 .site-header {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center; /* centrera mittenelementet */
+  justify-content: center;
   background: linear-gradient(90deg, #1a2a3d, #2f4a68);
   color: #fff;
   padding: 10px 18px;
@@ -241,7 +243,7 @@
   text-align: center;
 }
 
-/* Vänster – logo */
+/* Vänster sektion: logotyp */
 .site-header .left {
   position: absolute;
   left: 18px;
@@ -253,17 +255,27 @@
   height: 42px;
   width: auto;
   border-radius: 6px;
+  transition: transform 0.3s ease;
 }
 
-/* Mitten – titel */
+.site-header .left img:hover {
+  transform: scale(1.06);
+}
+
+/* Mitten: titel */
 .site-header .center {
   font-size: 1.25rem;
   font-weight: bold;
   letter-spacing: 0.4px;
   white-space: nowrap;
+  color: #ffffff;
+  text-shadow:
+    0 0 6px rgba(255, 255, 255, 0.6),
+    0 0 12px rgba(0, 153, 255, 0.4),
+    0 0 20px rgba(0, 204, 255, 0.3);
 }
 
-/* Höger – knapp */
+/* Höger sektion: knapp */
 .site-header .right {
   position: absolute;
   right: 18px;
@@ -286,14 +298,26 @@
   transform: scale(1.05);
 }
 
-/* Responsiv justering */
+/* Responsivt – mobilvy */
 @media (max-width: 480px) {
+  .site-header {
+    padding: 8px 12px;
+  }
+
   .site-header .center {
     font-size: 1.05rem;
+    text-shadow:
+      0 0 4px rgba(255, 255, 255, 0.5),
+      0 0 8px rgba(0, 153, 255, 0.3);
   }
+
   .site-header .right a {
     padding: 6px 10px;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .site-header .left img {
+    height: 34px;
   }
 }
 </style>
