@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BAUTA – Free of Charge for Africa 🌍</title>
+  <meta name="description" content="BAUTA – Angola Edition. A Vision Framtid initiative bringing free food, medicine, energy, and water across Africa." />
+  <link rel="icon" type="image/png" href="../public/bauta_logo.png" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, sans-serif;
+      color: #f0f8ff;
+      background: linear-gradient(to bottom, #001a33, #004b8d);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: linear-gradient(90deg, #2c3e50, #34495e);
+      color: #fff;
+      padding: 10px 18px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    header .left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    header img {
+      height: 38px;
+      width: auto;
+      border-radius: 6px;
+    }
+
+    header span {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    header .right a {
+      background-color: #333;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      transition: background-color 0.3s ease;
+    }
+
+    header .right a:hover {
+      background-color: #444;
+    }
+
+    main {
+      flex: 1;
+      padding: 60px 20px 40px;
+    }
+
+    .hero-logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 14px rgba(255, 255, 255, 0.4);
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      font-style: italic;
+      color: #b7e0ff;
+      margin-bottom: 30px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .hero-buttons a {
+      background: #003366;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 12px 26px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s, transform 0.2s;
+      box-shadow: 0 0 10px rgba(0, 51, 102, 0.4);
+    }
+
+    .hero-buttons a:hover {
+      background: #004c99;
+      transform: translateY(-2px);
+      box-shadow: 0 0 12px rgba(0, 102, 204, 0.6);
+    }
+
+    .intro {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 40px 20px;
+      border-radius: 12px;
+      margin: 0 auto 60px;
+      max-width: 700px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .intro h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .intro p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #e2f2ff;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-bottom: 60px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card h3 {
+      color: #16a34a;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      padding: 30px 10px;
+      text-align: center;
+      border-top: 2px solid #222;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: #fff;
+      background: #333;
+      padding: 8px 16px;
+      border-radius: 12px;
+      transition: 0.2s;
+    }
+
+    .footer-links a:hover {
+      background: #555;
+    }
+
+    .bible-quote {
+      font-style: italic;
+      opacity: 0.8;
+      margin-bottom: 15px;
+    }
+
+    .copyright {
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body class="home">
+  <header>
+    <div class="left">
+      <img src="../public/bauta_logo.png" alt="BAUTA logo" />
+      <span>BAUTA – Vision Framtid Initiative</span>
+    </div>
+    <div class="right">
+      <a href="projects.html">Projects 🌍</a>
+    </div>
+  </header>
+
+  <main>
+    <img src="../public/bauta_logo.png" alt="BAUTA logo" class="hero-logo" />
+    <h1>BAUTA – Angola Edition</h1>
+    <p class="tagline">Hydrogen • Food • Medicine • Water • Hope for Africa</p>
+
+    <div class="hero-buttons">
+      <a href="projects.html">View Projects 🌍</a>
+      <a href="about.html">About BAUTA ✝️</a>
+      <a href="contact.html">Contact 🤝</a>
+    </div>
+
+    <section class="intro">
+      <h2>Free of Charge – For Africa</h2>
+      <p>BAUTA builds a continent of hope — where energy, food and medicine are free. Founded in faith and driven by love, our projects unite technology and compassion to serve millions.</p>
+    </section>
+
+    <section class="feature-grid">
+      <div class="card">
+        <h3>🌾 Food & Water</h3>
+        <p>Free food distribution, 24/7 drilling rigs, and cold-storage networks that nourish the whole continent.</p>
+      </div>
+      <div class="card">
+        <h3>⚗️ Energy & Hydrogen</h3>
+        <p>Solar, wind, and wave power converted to liquid hydrogen — powering Africa sustainably.</p>
+      </div>
+      <div class="card">
+        <h3>💊 Medicine & Health</h3>
+        <p>Free hospitals and natural medicine factories serving millions with dignity and compassion.</p>
+      </div>
+    </section>
+
+    <section>
+      <p style="font-style: italic; margin-top:40px;">
+        “When energy, food and medicine become free, people become free.”<br>
+        — Magnus T. Gustav Sandberg
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <p class="bible-quote">
+      “Let justice roll on like a river, righteousness like a never-failing stream.” — Amos 5:24 ✝️
+    </p>
+
+    <p class="copyright">
+      © 2025 <strong>BAUTA</strong> — Vision Framtid by <strong>Magnus T Gustav Sandberg 🍀</strong>
+    </p>
+  </footer>
+</body>
+</html>
